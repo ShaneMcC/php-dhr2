@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# Redirect everything.
+RewriteRule ^index.php$ - [L]
+RewriteRule .* index.php [L]
+
